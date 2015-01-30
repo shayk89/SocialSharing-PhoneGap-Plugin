@@ -56,15 +56,9 @@
     </config-file>
 
     <config-file target="AndroidManifest.xml" parent="/manifest">
-<<<<<<< HEAD
-<<<<<<< HEAD
+
       <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-=======
-      <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"  android:maxSdkVersion="18"/>
->>>>>>> parent of 981b380... .
-=======
-      <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="18"/>
->>>>>>> upstream/master
+
     </config-file>
 
     <source-file src="src/android/nl/xservices/plugins/SocialSharing.java" target-dir="src/nl/xservices/plugins"/>
